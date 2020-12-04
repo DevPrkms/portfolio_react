@@ -9,10 +9,27 @@
       name="description"
       content="DevPark's Portfolio"
     />
-    <title>React App</title>
+    <title>DevPark's Portfolio</title>
+    <script
+            src="https://code.jquery.com/jquery-3.5.0.js"
+            integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+            crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="%PUBLIC_URL%/fullpage/fullpage.css" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script src="%PUBLIC_URL%/fullpage/fullpage.js"></script>
   </body>
+<script>
+  $(document).ready(function () {
+    $('#body-wrapper').fullpage({
+      licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
+      autoScrolling: true,
+      scrollHorizontally: true,
+    });
+  });
+</script>
 </html>

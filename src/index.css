@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url(./fonts/NotoSansKR-Bold.otf) format('opentype');
+}
+
+body{
+    font-family: 'Noto Sans KR' !important;
+    box-sizing: border-box;
+}
+
+.s1 {
+    background-color: black;
+}
+
+#home-wrapper {
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 375px){
+    #home-wrapper {
+        font-size: 0.8rem;
+    }
+}
+
+
+#titbox {
+    margin-left: 10px;
+}
+
+#subtit {
+    color: gold;
+}
+
+#about-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about-wrapper h2 {
+    color: #218380;
+}
+
+#face img {
+    width: 300px;
+    border-radius: 150px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#img-bottom {
+    margin-left: 10px;
+    display: block;
+}
+
+#job {
+    margin-top: -10px;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+svg:first-child {
+    margin-right: 5px;
+}
+
+svg {
+    margin-right: 4px;
+}
+
+#img-right {
+    border-left: 1px solid #ececec;
+}
+
+#img-right h5 {
+    color: #218380;
+}
